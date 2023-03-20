@@ -1,1 +1,72 @@
 /* You can add global styles to this file, and also import other style files */
+/*==================== GOOGLE FONTS ====================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+    --header-height: 3rem ;
+
+    /*========== Colors ==========*/
+    /*cyan 200 yellow 50 purple 300 red 1 lime 130*/
+    --hue-color: 200; 
+
+    --first-color: hsl(var(--hue-color), 69%, 61%) ;
+    --first-color-second: hsl(var(--hue-color), 80%, 61%) ;
+    --first-color-alt: hsl(var(--hue-color), 57%, 53%) ;
+    --first-color-lighter: hsl(var(--hue-color), 40%, 85%) ;
+    
+    /* --hero-pattern: radial-gradient(circle at center center, transparent,var(--first-color)),repeating-linear-gradient(135deg, var(--first-color) 0px, var(--first-color) 2px,transparent 2px, transparent 10px,var(--first-color) 10px, var(--first-color) 11px,transparent 11px, transparent 21px),repeating-linear-gradient(45deg, hsl(var(--hue-color), 80%, 45%) 0px, hsl(var(--hue-color), 80%, 45%) 4px,transparent 4px, transparent 8px),linear-gradient(90deg, var(--first-color),var(--first-color));
+    --hero-size: ''; */
+
+    /* --profile-imgClr: url("/assets/img/Dp-1-min.jpg"); */
+    /* 70px 70px */
+
+    --title-color: hsl(var(--hue-color), 8%, 15%) ;
+    --text-color: hsl(var(--hue-color), 8%, 45%) ;
+    --text-color-light: hsl(var(--hue-color), 8%, 65%) ;
+    --text-hero-color: hsl(var(--hue-color), 8%, 99%) ;
+    --text-hero-color2: hsl(var(--hue-color), 8%, 95%) ;
+    --shadow-colorr: rgba(0, 0, 0, 0.102);
+    --body-color: hsl(var(--hue-color), 33%, 97%) ;
+    --first-color-bg: hsl(var(--hue-color), 48%, 95%) ;
+
+    --container-color: hsl(var(--hue-color), 26%, 98%);
+
+    --card-color: hsl(var(--hue-color), 20%, 98%);
+    --card-color-hover: hsl(var(--hue-color), 15%, 97%);
+
+    --hoverBtn-color: hsl(var(--hue-color), 40%, 96%) ;
+
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 90%) ;
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%) ;
+
+    /*========== Font and typography ==========*/
+    --hero-font: 'Bonheur Royale', cursive;
+    --body-font: 'Poppins', sans-serif;
+    --body-font2: 'Open Sans', sans-serif;
+
+    /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
+    --big-font-size: 2rem ;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;
+    --smaller-font-size: .75rem;
+
+    /*========== Font weight ==========*/
+    --font-medium: 500;
+    --font-semi-bold: 600;
+
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+
+    /*========== Shadow ==========*/
+    --thin-shadow: 2px 2px 4px 0 var(--shadow-colorr);
+    --thick-shadow: 0 -1px 8px 2px var(--shadow-colorr);
+}

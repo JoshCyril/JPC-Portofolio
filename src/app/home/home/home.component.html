@@ -1,2 +1,7 @@
-<p>home works!</p>
-<app-loader></app-loader>
+<div *ngIf="!isLoaded">
+    <app-loader></app-loader>
+</div>
+
+<div *ngIf="isLoaded">
+    <p>home works!</p>
+</div>
