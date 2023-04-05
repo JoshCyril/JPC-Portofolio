@@ -106,7 +106,7 @@
         display: block;
         height: 100%;
         padding-left: 6px;
-        color: var(--first-color);
+        color: rgb(171, 171, 171);
         -webkit-animation: spin_4991 5s infinite;
                 animation: spin_4991 5s infinite;
       }

@@ -31,12 +31,12 @@ const routes: Routes = [
     component: ResourceComponent
   },
   {
-    path: "version/v1",
+    path: "v1",
     title: appNameTitle + ' - Version 1',
     component: V1Component
   },
   {
-    path: "version/v2",
+    path: "v2",
     title: appNameTitle + ' - Version 2',
     component: V2Component
   }
